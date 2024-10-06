@@ -23,11 +23,11 @@ This is a Python script that automates interactions with the Pip World game.
 
 1. Clone this repository:
    
-   git clone https://github.com/your-username/pip-world-bot.git
-
+   git clone https://github.com/KalongCrypto/PipWorld.git
+   
 2. Navigate to the project directory:
    
-   cd pip-world-bot
+   cd PipWorld
 
 3. Install the required dependencies:
    

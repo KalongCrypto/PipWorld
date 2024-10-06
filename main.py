@@ -6,9 +6,8 @@ from itertools import cycle
 from pyfiglet import Figlet
 import os
 
-init(autoreset=True)  # Inisialisasi colorama
+init(autoreset=True) 
 
-# Baca konfigurasi terenkripsi dari file
 def read_encrypted_config():
     try:
         with open('core/config.json', 'r') as file:
@@ -20,14 +19,12 @@ def read_encrypted_config():
         print(Fore.RED + "File konfigurasi tidak valid.")
         return None
 
-# Baca konfigurasi terenkripsi
 ENCRYPTED_CONFIG = read_encrypted_config()
 
 if ENCRYPTED_CONFIG is None:
     print(Fore.RED + "Gagal membaca konfigurasi. Program berhenti.")
     exit(1)
 
-# Fungsi dekripsi dan kode selanjutnya tetap sama
 def decrypt_config(encrypted_data, key):
     decrypted = ''
     for i, char_code in enumerate(encrypted_data):

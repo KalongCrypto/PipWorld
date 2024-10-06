@@ -23,15 +23,15 @@ This is a Python script that automates interactions with the Pip World game.
 
 1. Clone this repository:
    
-git clone https://github.com/your-username/pip-world-bot.git
+   git clone https://github.com/your-username/pip-world-bot.git
 
 2. Navigate to the project directory:
    
-cd pip-world-bot
+   cd pip-world-bot
 
 3. Install the required dependencies:
    
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Usage
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 2. Set up the user_agent.txt file with a list of User-Agents you want to use.
 3. Run the script:
    
-python main.py
+   python main.py
 
 4. Follow the on-screen prompts to choose whether to run quests or not.
 
